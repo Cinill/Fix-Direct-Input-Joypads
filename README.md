@@ -15,6 +15,8 @@ The blue PS2 to USB Convertor;
 or all devices with VID_0810&PID_0001 and VID_11ff&PID_3341.
 
 
+
+
 Troubleshooting
 
 If your game controllers > properties window crashes on the vibration tab then:
@@ -22,25 +24,35 @@ Copy the joy.cpl file from the C:Windows/SysWOW64 folder to the C:Windows/SysSys
 Example:
 https://www.youtube.com/watch?v=Un8nRb6pDBc
 
+
 If you are crashing x360ce:
 Use version 3 because:
 https://github.com/x360ce/x360ce/discussions/1324
+
 
 If you are crashing xOutput:
 Use version up to v3.23 (I use v3.22)
 https://github.com/csutorasa/XOutput/issues/216
 
+
 If your PCSX2 is crashing:
 Unplug your Joipad, and turn off the SDL Input Source in the PCSX2 SDL settings, use xInput from  ‘XOutput’.
+
 
 If you have a twitchy right stick (relevant on my Bravis pu-2222 when low on charge):
 
 1.unplug your Gamepad
-2.open regedit>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contro l\MediaProperties\PrivateProperties\Joystick\OEM\(your OEM gamepad)
+
+2.open regedit>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\(your OEM gamepad)
+
 3.Right click on your ‘gamepad OEM’- folder, create a new key called ‘Axes’
+
 4.right click on the ‘Axes’ folder, create a key called ‘2’.
+
 5.inside ‘2’ right click and create a binary value named ‘Attributes’, set it to ‘ 00 00 00 00 00 00 01 00 00 35 00 ’
+
 6.after that create in ‘Axes’ a second key: ‘5’, create a binary value called ‘Attributes’, set it to ‘ 00 00 00 00 00 00 01 00 00 00 32 00 ’
+
 
 
 It might help, but it didn't work for me.
