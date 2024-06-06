@@ -47,8 +47,8 @@ If your PCSX2 crashes:
 2. Open `regedit` and navigate to `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\MediaProperties\PrivateProperties\Joystick\OEM\(your OEM gamepad)`.
 3. Right-click on your ‘gamepad OEM’ folder, create a new key called ‘Axes’.
 4. Right-click on the ‘Axes’ folder, create a key called ‘2’.
-5. Inside ‘2’, right-click and create a binary value named ‘Attributes’, set it to ‘00 00 00 00 00 00 01 00 00 35 00’.
-6. After that, create in ‘Axes’ a second key: ‘5’, create a binary value called ‘Attributes’, set it to ‘00 00 00 00 00 00 01 00 00 00 32 00’.
+5. Inside ‘2’, right-click and create a binary value named ‘Attributes’, set it to ‘00 00 00 00 01 00 35 00’.
+6. After that, create in ‘Axes’ a second key: ‘5’, create a binary value called ‘Attributes’, set it to ‘00 00 00 00 01 00 32 00’.
 
 It might help, but it didn't work for me. [Discussion on Tom's Hardware](https://forums.tomshardware.com/threads/right-analog-stick-problem.98492/post-9929592)
 
