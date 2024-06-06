@@ -7,9 +7,11 @@ Bravis Pu-2200;
 Bravis Pu-2222;
 ![81PxeRC2HPL _AC_UF350,350_QL80_](https://github.com/Cinill/My-gamepad-drivers-collection/assets/72980216/e5588ecf-fbcb-4687-9252-621667088e3f)
 The blue PS2 to USB Convertor;
+
 or all devices with VID_0810&PID_0001 and VID_11ff&PID_3341.
 
-troubleshooting
+
+Troubleshooting
 
 If your game controllers > properties window crashes on the vibration tab then:
 Copy the joy.cpl file from the C:Windows/SysWOW64 folder to the C:Windows/SysSystem32 folder with replacement.
