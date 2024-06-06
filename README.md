@@ -11,7 +11,6 @@ Copy the joy.cpl file from the C:Windows/SysWOW64 folder to the C:Windows/SysSys
 Example:
 https://www.youtube.com/watch?v=Un8nRb6pDBc
 
-
 If you are crashing x360ce:
 Use version 3 because:
 https://github.com/x360ce/x360ce/discussions/1324
@@ -20,7 +19,10 @@ If you are crashing xOutput:
 Use version up to v3.23 (I use v3.22)
 https://github.com/csutorasa/XOutput/issues/216
 
-If you have a twitchy right stick (relevant on my Bravis pu-2222 when low on charge)
+If your PCSX2 is crashing:
+Unplug your Joipad, and turn off the SDL Input Source in the PCSX2 SDL settings, use xInput from  ‘XOutput’.
+
+If you have a twitchy right stick (relevant on my Bravis pu-2222 when low on charge):
 
 1.unplug your Gamepad
 2.open regedit>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Contro l\MediaProperties\PrivateProperties\Joystick\OEM\(your OEM gamepad)
