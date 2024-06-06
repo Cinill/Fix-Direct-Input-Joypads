@@ -1,8 +1,7 @@
 Enable vibration in your Joypad on Windows 10 (In Windows 7/8 it should sort of work by itself, but I haven't checked).
 
 These drivers and mini guide will work for devices such as:
-![sddefault](https://github.com/Cinill/My-gamepad-drivers-collection/assets/72980216/5f2791f9-ca25-4f50-8af5-cab8cd117619)
-Bravis Pu-2200;
+![sddefault](https://github.com/Cinill/My-gamepad-drivers-collection/assets/72980216/5f2791f9-ca25-4f50-8af5-cab8cd117619) Bravis Pu-2200;
 
 
 ![original-95-1](https://github.com/Cinill/My-gamepad-drivers-collection/assets/72980216/ef60a557-1f4c-41f2-916c-ad2de7959ff1)
