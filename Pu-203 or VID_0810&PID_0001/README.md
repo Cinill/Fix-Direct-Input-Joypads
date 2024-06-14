@@ -1,0 +1,1 @@
+You can also take a look at my own driver for PID 0810 VID 001 at https://github.com/Cinill/BlueConvertor-Rumble-Extension
